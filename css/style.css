@@ -63,6 +63,68 @@ section.basic h1 {
 	color: #fbbb02;
 }
 
+section form {
+	width: 46%;
+	float: left;
+	padding: 10px 20px;
+}
+
+section form .form-group {
+	width: 100%;
+}
+
+section form .form-group label {
+	width: 25%;
+	float: left;
+	margin: 10px 0;
+}
+
+section form .form-group .input {
+	width: 74%;
+	float: left;
+}
+
+section form .form-group .input input {
+	width: 90%;
+	margin: 10px 0;
+	padding: 10px 15px;
+	border: solid 1px;
+}
+
+section form .form-group textarea {
+	padding: 10px 15px;
+	width: 91%;
+	border: solid 1px;
+}
+
+section form input[type="submit"] {
+	background-color: #fbbb02;
+	padding: 10px 25px;
+	width: auto;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+section form input[type="submit"]:hover {
+	background-color: #565454;
+}
+
+section form .form-group input:focus,
+section form .form-group textarea:focus {
+	outline: 0;
+	background-color: #fff;
+	border: solid 1px #fbbb02;
+	-webkit-box-shadow: 0px 0px 10px 1px #fbbb02;
+	-moz-box-shadow: 0px 0px 10px 1px #fbbb02;
+	box-shadow: 0px 0px 10px 1px #fbbb02;
+}
+
+section .subject {
+	float: left;
+	width: 50%;
+}
+
 .portfolio {
 	margin: 0;
 	padding: 0;
