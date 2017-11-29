@@ -122,7 +122,57 @@ section form .form-group textarea:focus {
 
 section .subject {
 	float: left;
-	width: 50%;
+	width: 48%;
+}
+
+section .subject table {
+	border: 1px solid #999;
+	/*padding: 10px 15px;*/
+}
+
+section .subject table thead {
+	background: #fbbb02;
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+}
+
+section .subject table td {
+	padding: 5px 15px;
+}
+
+section .subject table tbody tr {
+	font-size: 19px;
+	font-family: Arial sans-serif;
+}
+
+section .subject table tbody td {
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+section .subject table tbody td:last-child {
+	border-right: 0;
+}
+
+section .subject table tbody tr:last-child td {
+	border-bottom: 0;
+}
+
+section .subject table tbody .btn {
+	background-color: #fbbb02;
+	padding: 10px 25px;
+	width: auto;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	margin: 5px 25px;
+	display: inline-block;
+}
+
+section .subject table tbody .btn:hover {
+	background-color: #565454;
 }
 
 .portfolio {
@@ -149,7 +199,7 @@ section .subject {
 .portfolio .meta {
 	padding: 0 10px;
 	position: relative;
-	margin: -178px 15px 0;
+	margin: -169px 16px 0;
 	background: #fbbc00;
 	color: #fff;
 	border-radius: 15px 15px 0 0;
